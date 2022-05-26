@@ -1,4 +1,5 @@
 body {
+  line-height: 10px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -25,4 +26,23 @@ body {
   margin-left: 7%;
   opacity: 0.3;
   position: absolute;
+}
+.title {
+  position: relative;
+  margin-top: 90px;
+  box-sizing: border-box;
+}
+.title h1 {
+  display: inline;
+  color: white;
+  font-size: 45px;
+  font-family: arial black;
+}
+.colred {
+  color: red;
+}
+.title h3 {
+  font-size: 23px;
+  font-style: italic;
+  color: rgb(219, 209, 209);
 }

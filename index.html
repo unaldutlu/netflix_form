@@ -11,12 +11,69 @@
 
 <body>
     <div class="frame">
-        <img class="img" src="/images/netflix-image.jpg" alt="netflix_form">
-        <div class="transparent"></div>
-        <div class="title">
+        <div class="img_bx">
+            <img src="/images/netflix-image.jpg" alt="netflix_form">
+        </div>
+        <div class="transparent_1">
+        </div>
+        <div class="title_bx">
             <h1>NET<span class="colred">FLIX</span></h1>
-            <br><br>
-            <h3>Thank you for signing up to Netflix.Tell me more about yourself.</h3>
+            <p>Thank you for signing up to Netflix.Tell me more about yourself.</p>
+        </div>
+        <div class="transparent_2">
+            <div class="form_bx">
+                <form>
+                    <div class="input_bx">
+                        <span>Name</span><br>
+                        <input type="text" name="name" placeholder="enter your name" required autocomplete="off">
+                    </div>
+                    <div class="input_bx">
+                        <span>Age</span><br>
+                        <input type="number" name="age" placeholder="age" min="0" required>
+                    </div>
+                    <div class="input_bx">
+                        <span>Email</span><br>
+                        <input type="email" name="Email" placeholder="enter your Email"autocomplete="off" required>
+                    </div>
+                    <div class="input_bx">
+                        <span>Content Type</span>
+                        <br>
+                        <select class="select_bx" name="select" required>
+                            <option value="" disabled selected hidden>Series</option>
+                            <option value="ac">Action</option>
+                            <option value="ad">Adventure</option>
+                            <option value="dr">Drama</option>
+                        </select>
+                    </div>
+                    <div class="input_bx1">
+                        <span>Movie Type</span>
+                        <input type="checkbox" name="comedy" id="comedy" value="comedy">
+                        <label for="comedy">Comedy</label><br>
+                        <input type="checkbox" name="action" id="action" value="action">
+                        <label for="action">Action</label><br>
+                        <input type="checkbox" name="romance" id="romance" value="romance">
+                        <label for="romance">Romance</label>
+                    </div>
+                    <br>
+                    <div class="input_bx1">
+                        <span>Gender</span>
+                        <input type="radio" name="gen" id="male" value="male" required>
+                        <label for="male">Male</label><br>
+                        <input type="radio" name="gen" id="female" value="female" required>
+                        <label for="female">Female</label><br>
+                        <input type="radio" name="gen" id="other" value="other" required>
+                        <label for="other">Other</label>
+                    </div>
+                    <br>
+                    <div class="input_bx">
+                        <span>Feedback</span><br>
+                        <textarea name="" id="" cols="52" rows="7" placeholder="any comment"></textarea>
+                    </div>
+                    <div class="input_bx">
+                        <input type="submit" value="Send" id="submit">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>

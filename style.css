@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .frame {
@@ -58,7 +57,7 @@ body {
   margin: auto;
   padding: 1rem;
   width: 25rem;
-  background-color: rgba(0, 0, 0, 2);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .frame .transparent_2 .input_bx {
@@ -102,7 +101,6 @@ body {
 .frame .transparent_2 .input_bx1 input[type="checkbox"] {
   cursor: pointer;
   margin-left: 1rem;
-
 }
 
 .frame .transparent_2 .input_bx1 input[type="radio"] {
@@ -133,7 +131,195 @@ body {
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
+  border: none;
 }
 .frame .transparent_2 .input_bx input[type="submit"]:hover {
   background-color: rgb(173, 192, 4);
 }
+
+/* ****************@Media mobil***************************/
+@media screen and (min-width: 250px) and (max-width: 319px){
+  .frame {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid blue;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url(./images/netflix-image.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: cover;
+  }
+
+  .frame .transparent_1 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .frame .title_bx h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Bowlby One SC", cursive;
+    letter-spacing: 0.2rem;
+  }
+  .frame .title_bx p {
+    display: flex;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-style: italic;
+    color: rgb(219, 209, 209);
+    margin-bottom: 0.7rem;
+  }
+
+  .frame .transparent_2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1rem;
+    width: 15rem;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .frame .transparent_2 .input_bx {
+    margin-bottom: 0.1rem;
+  }
+
+  .frame .transparent_2 .input_bx span {
+    display: inline-block;
+    color: rgb(219, 209, 209);
+    font-size: 0.8rem;
+    margin-bottom: 0.1rem;
+    letter-spacing: 0.1rem;
+  }
+  .frame .transparent_2 .input_bx input {
+    display: inline-block;
+    color: black;
+    width: 95%;
+    padding: 0.3rem 0.3rem;
+    margin-bottom: 0.1rem;
+  }
+  
+  .frame .transparent_2 .input_bx .select_bx {
+    width: 95%;
+    padding: 0.5rem 0.1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+    cursor: pointer;
+    color: gray;
+  }
+
+  .frame .transparent_2 .input_bx1 span {
+    display: block;
+    color: rgb(219, 209, 209);
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+    margin-left: 1rem;
+  }
+
+  .frame .transparent_2 .input_bx1 label {
+    color: rgb(219, 209, 209);
+    font-size: 0.7rem;
+  }
+}
+
+/* ****************@Media Mobil***************************/
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .frame {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid blue;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url(./images/netflix-image.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: cover;
+  }
+
+  .frame .transparent_1 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .frame .title_bx h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Bowlby One SC", cursive;
+    letter-spacing: 0.2rem;
+  }
+  .frame .title_bx p {
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    color: rgb(219, 209, 209);
+    margin-bottom: 0.7rem;
+  }
+
+  .frame .transparent_2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1rem;
+    width: 20rem;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .frame .transparent_2 .input_bx {
+    margin-bottom: 0.1rem;
+  }
+
+  .frame .transparent_2 .input_bx span {
+    display: inline-block;
+    color: rgb(219, 209, 209);
+    font-size: 0.8rem;
+    margin-bottom: 0.1rem;
+    letter-spacing: 0.1rem;
+  }
+  .frame .transparent_2 .input_bx input {
+    display: inline-block;
+    color: black;
+    width: 95%;
+    padding: 0.3rem 0.3rem;
+    margin-bottom: 0.1rem;
+  }
+  
+  .frame .transparent_2 .input_bx .select_bx {
+    width: 95%;
+    padding: 0.5rem 0.1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+    cursor: pointer;
+    color: gray;
+  }
+
+  .frame .transparent_2 .input_bx1 span {
+    display: block;
+    color: rgb(219, 209, 209);
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+    margin-left: 1rem;
+  }
+
+  .frame .transparent_2 .input_bx1 label {
+    color: rgb(219, 209, 209);
+    font-size: 0.7rem;
+  }
+}
+
+

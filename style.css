@@ -47,7 +47,7 @@ body {
   font-size: 1.1rem;
   font-style: italic;
   color: rgb(219, 209, 209);
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.1rem;
 }
 .frame .transparent_2 {
   position: relative;
@@ -79,14 +79,14 @@ body {
   padding: 0.6rem 0.3rem;
   margin-bottom: 0.5rem;
 }
-.frame .transparent_2 .input_bx::placeholder {
-  font-size: 1rem;
+.frame .transparent_2 .input_bx ::placeholder {
+  font-size: 0.6rem;
 }
 .frame .transparent_2 .input_bx .select_bx {
   width: 95%;
   padding: 0.6rem 0.3rem;
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.6rem;
   cursor: pointer;
   color: gray;
 }
@@ -118,9 +118,10 @@ body {
   resize: none;
   padding: 0.4rem 0 0 0.4rem;
   width: 95%;
+  margin-bottom: 0.5rem;
 }
 .frame .transparent_2 .input_bx textarea::placeholder {
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 .frame .transparent_2 .input_bx input[type="submit"] {
   width: 40%;
@@ -130,7 +131,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
   cursor: pointer;
 }
 .frame .transparent_2 .input_bx input[type="submit"]:hover {

@@ -3,141 +3,125 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: url("./images/netflix-image.jpg");
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-size: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .frame {
-  width: 1200px;
-  height: 1050px;
+  width: 100%;
+  height: 100vh;
   border: 2px solid blue;
   position: relative;
   display: flex;
-  margin: auto;
-}
-.frame .img_bx img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .frame .transparent_1 {
-  position: absolute;
-  display: flex;
-  top: 28px;
-  left: 48px;
-  width: 1100px;
-  height: 1000px;
-  background-color: black;
-  opacity: 0.3;
+  position: relative;
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .frame .title_bx h1 {
-  position: absolute;
   display: flex;
-  top: 40px;
-  left: 490.485px;
+  justify-content: center;
   color: white;
-  font-size: 40px;
-  font-family: arial black;
+  font-size: 3rem;
+  font-family: 'Bowlby One SC', cursive;
+  letter-spacing: 0.2rem;
 }
 .frame .title_bx h1 .colred {
   color: red;
 }
 .frame .title_bx p {
-  position: absolute;
   display: flex;
-  font-size: 20px;
+  justify-content: center;
+  font-size: 1.3rem;
   font-style: italic;
   color: rgb(219, 209, 209);
-  top: 100px;
-  left: 342px;
+  margin-bottom: 1.4rem;
 }
 .frame .transparent_2 {
   position: relative;
   display: flex;
-  width: 460px;
-  height: 882px;
-  top: 145px;
-  left: 368px;
-  background-color: rgba(0, 0, 0, 0.7);
-  /* opacity: 0.7; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 1rem;
+  width: 30rem;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 2);
 }
-.frame .transparent_2 .form_bx {
-  position: absolute;
-  width: 470px;
-  height: 830px;
-  left: 25px;
-  top: 22px;
+
+.frame .transparent_2 .input_bx {
+  margin-bottom: 0.1rem;
 }
-.frame .transparent_2 .form_bx .input_bx {
-  margin-bottom: 5px;
-}
-.frame .transparent_2 .form_bx .input_bx span {
+.frame .transparent_2 .input_bx span {
   display: inline-block;
   color: white;
-  font-size: 20px;
-  font-weight: 200;
-  margin-bottom: 9px;
-  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
-.frame .transparent_2 .form_bx .input_bx input {
+.frame .transparent_2 .input_bx input {
   display: inline-block;
   color: black;
-  font-size: large;
-  width: 87%;
-  padding: 17px 5px; 
-  margin-bottom: 16px;
+  width: 100%;
+  padding: 1rem 0.1rem;
+  margin-bottom: 0.5rem;
 }
-.frame .transparent_2 .form_bx .input_bx ::placeholder {
-  font-size: 15px;
+.frame .transparent_2 .input_bx::placeholder {
+  font-size: 1rem;
 }
-.frame .transparent_2 .form_bx .input_bx .select_bx {
-  width: 87%;
-  padding: 17px 5px;
-  margin-bottom: 16px;
-  font-size: 15px;
+.frame .transparent_2 .input_bx .select_bx {
+  width: 100%;
+  padding: 1rem 0.1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
-.frame .transparent_2 .form_bx .input_bx1 span {
+.frame .transparent_2 .input_bx1 span {
   display: block;
   color: white;
   font-size: 20px;
-  font-weight: 200;
-  margin-bottom: 9px;
-  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
 }
 
-.frame .transparent_2 .form_bx .input_bx1 input[type="checkbox"] {
+.frame .transparent_2 .input_bx1 input[type="checkbox"] {
   cursor: pointer;
 }
 
-.frame .transparent_2 .form_bx .input_bx1 input[type="radio"] {
+.frame .transparent_2 .input_bx1 input[type="radio"] {
   cursor: pointer;
 }
 
-.frame .transparent_2 .form_bx .input_bx1 label {
+.frame .transparent_2 .input_bx1 label {
   color: white;
 }
-.frame .transparent_2 .form_bx .input_bx textarea {
+.frame .transparent_2 .input_bx textarea {
   resize: none;
-  padding: 5px 0 0 5px;
+  padding: 0.4rem 0 0 0.4rem;
 }
-.frame .transparent_2 .form_bx .input_bx textarea ::placeholder{
-  font-size: 150px;
+.frame .transparent_2 .input_bx textarea::placeholder {
+  font-size: 1rem;
 }
-.frame .transparent_2 .form_bx .input_bx input[type="submit"] {
-  width: 180px;
+.frame .transparent_2 .input_bx input[type="submit"] {
+  width: 40%;
   border-radius: 30px;
   background-color: red;
   color: white;
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: 120px;
+  margin: auto;
   cursor: pointer;
 }
-.frame .transparent_2 .form_bx .input_bx input[type="submit"]:hover {
+.frame .transparent_2 .input_bx input[type="submit"]:hover {
   background-color: rgb(173, 192, 4);
-  font-size: larger;
 }

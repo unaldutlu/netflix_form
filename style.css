@@ -4,11 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background: url("./images/netflix-image.jpg");
-  background-repeat: no-repeat;
-  background-origin: padding-box;
-  background-size: cover;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .frame {
   width: 100%;
@@ -19,11 +16,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background: url("./images/netflix-image.jpg");
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-size: cover;
 }
 
 .frame .transparent_1 {
   position: relative;
   width: 95%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -32,7 +35,7 @@ body {
   justify-content: center;
   color: white;
   font-size: 3rem;
-  font-family: 'Bowlby One SC', cursive;
+  font-family: "Bowlby One SC", cursive;
   letter-spacing: 0.2rem;
 }
 .frame .title_bx h1 .colred {
@@ -55,7 +58,6 @@ body {
   margin: auto;
   padding: 1rem;
   width: 30rem;
-  height: 80vh;
   background-color: rgba(0, 0, 0, 2);
 }
 
@@ -64,7 +66,7 @@ body {
 }
 .frame .transparent_2 .input_bx span {
   display: inline-block;
-  color: white;
+  color: rgb(219, 209, 209);
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
@@ -72,7 +74,7 @@ body {
   display: inline-block;
   color: black;
   width: 100%;
-  padding: 1rem 0.1rem;
+  padding: 1rem 0.4rem;
   margin-bottom: 0.5rem;
 }
 .frame .transparent_2 .input_bx::placeholder {
@@ -80,17 +82,18 @@ body {
 }
 .frame .transparent_2 .input_bx .select_bx {
   width: 100%;
-  padding: 1rem 0.1rem;
+  padding: 1rem 0.4rem;
   margin-bottom: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
+  color: gray;
 }
 
 .frame .transparent_2 .input_bx1 span {
   display: block;
-  color: white;
-  font-size: 20px;
-  margin-bottom: 0.5rem;
+  color: rgb(219, 209, 209);
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
 }
 
 .frame .transparent_2 .input_bx1 input[type="checkbox"] {
@@ -102,7 +105,8 @@ body {
 }
 
 .frame .transparent_2 .input_bx1 label {
-  color: white;
+  color: rgb(219, 209, 209);
+  font-size: 0.9rem;
 }
 .frame .transparent_2 .input_bx textarea {
   resize: none;
@@ -115,7 +119,7 @@ body {
   width: 40%;
   border-radius: 30px;
   background-color: red;
-  color: white;
+  color: rgb(219, 209, 209);
   display: flex;
   justify-content: center;
   text-align: center;

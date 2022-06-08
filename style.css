@@ -19,6 +19,10 @@ body {
   background-repeat: no-repeat;
   background-origin: padding-box;
   background-size: cover;
+  overflow: auto;
+}
+.frame::-webkit-scrollbar {
+  display: none;
 }
 
 .frame .transparent_1 {

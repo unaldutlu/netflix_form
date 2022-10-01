@@ -8,6 +8,10 @@ Project aims to create survey form within html and css. Problem Statement Your c
 
 https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4
 
+# Live Link:
+
+https://unaldutlu.github.io/Project-1-netflix_form-/
+
 # Project Skeleton
 
 netflix_form

@@ -1,4 +1,4 @@
-# Project-01(netflix_form)
+# Project-1-Netflix Form
 
 # Description:
 
@@ -10,7 +10,7 @@ https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4
 
 # Live Link:
 
-https://unaldutlu.github.io/Project-1-netflix_form-/
+https://unaldutlu.github.io/netflix_form/
 
 
 ![Animation1](https://user-images.githubusercontent.com/94699375/193427113-41723fe6-da4d-4d41-9022-f06c7bf1b054.gif)
